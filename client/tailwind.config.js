@@ -29,6 +29,17 @@ module.exports = {
       fontFamily: {
         "gt-america": ["GT America"],
       },
+      keyframes: {
+        imagefade: {
+          "0%": { opacity: 1 },
+          "45%": { opacity: 1 },
+          "55%": { opacity: 0 },
+          "100%": { opacity: 0 },
+        },
+      },
+      animation: {
+        imagefade: "imagefade 7s ease-in-out infinite alternate",
+      },
     },
   },
   plugins: [],
